@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table style="border:3px #cccccc solid;" cellpadding="10" border=‘1’>
+        <form action="stu">
+            <tr>
+                <td colspan="3" align="middle">About -- 110306010</td>
+            </tr>
+            <tr>
+                <td rowspan="3"><img src="cooperation.png" alt="personal img" width="100"></td>
+                <td colspan="2"><label for="name">Name:
+                    <input type="text" id="name"><br>
+                    <label for="gender">Gender:
+                        <input type="radio" id="gender">Male 
+                        <input type="radio" id="gender">Female 
+                        <input type="radio" id="gender">Other
+                    </label>
+                </label></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="country">Country:
+                        <select name="country" id="country">
+                            <option value="country">Taipei</option>
+                            <option value="country">Tainan</option>
+                            <option value="country">Taichung</option>
+                            <option value="country">Taoyuan</option>
+                        </select>
+                    </label>
+                </td>
+                <td>
+                    <label for="birthday">Birthday:
+                        <input type="date" id="birthday">
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="email">E-mail:
+                        <input type="mail">
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>Hobby</td>
+                <td colspan="2">
+                    <label for="hobby">
+                        <input type="checkbox" id="hobby" value="swimming">Swimming
+                        <input type="checkbox" id="hobby" value="volleyball">Volleyball
+                        <input type="checkbox" id="hobby" value="moive">Moive
+                        <input type="checkbox" id="hobby" value="game">Game
+                        <input type="checkbox" id="hobby" value="sleep">sleep
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>Skill</td>
+                <td colspan="2">
+                    <label for="skill">
+                        <input type="checkbox" id="skill" value="java">Java
+                        <input type="checkbox" id="skill" value="html">HTML
+                        <input type="checkbox" id="skill" value="python">Python
+                        <input type="checkbox" id="skill" value="ms">Microsoft Office
+                        <input type="checkbox" id="skill" value="premiere">Premiere
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>Say Something</td>
+                <td colspan="2">
+                    <textarea name="say" id="say" cols="46" rows="4">Say something here.</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="提交">
+                    <input type="reset" value="重設">
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>
+
